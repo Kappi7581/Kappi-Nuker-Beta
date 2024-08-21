@@ -1,48 +1,89 @@
-# Kappi7581 Discord Server Nüker Beta versiyon
+---
+
+# Kappi7581 Discord Server Nüker Beta Versiyon
 * Python 3.6 - 3.8
 ***
-# Özellikler
- - [x] Kanalları Sil
- - [x] Kullanıcıları Banla
- - [x] Rolleri Sil
- - [x] Kanallar Oluştur
- - [ ] Roller Oluştur
+
+## Özellikler
+- [x] Kanalları Sil
+- [x] Kullanıcıları Banla
+- [x] Rolleri Sil
+- [x] Kanallar Oluştur
+- [ ] Roller Oluştur
 
 ***
-# Kurulum:
-## Android (Termux):
+
+## Kurulum
+
+### Android (Termux)
+
+1. **Git ve Python Kurulumu:**
+   ```console
+   pkg install git
+   apt update && apt upgrade
+   pkg install python
+   ```
+
+2. **Depoyu Klonla:**
+   ```console
+   git clone https://github.com/Kappi7581/Kappi-Nuker-Beta
+   ```
+
+3. **Proje Klasörüne Git:**
+   ```console
+   cd Kappi-Nuker-Beta
+   ```
+
+4. **Gerekli Paketleri Yükle:**
+   ```console
+   python -m pip install -r requirements.txt
+   ```
+
+5. **Uygulamayı Çalıştır:**
+   ```console
+   python kappi.py
+   ```
+
+### Linux / Windows
+
+1. **Depoyu Klonla:**
+   ```console
+   git clone https://github.com/Kappi7581/Kappi-Nuker-Beta
+   ```
+
+2. **Proje Klasörüne Git:**
+   ```console
+   cd Kappi-Nuker-Beta
+   ```
+
+3. **Gerekli Paketleri Yükle:**
+   ```console
+   python -m pip install -r requirements.txt
+   ```
+
+4. **Uygulamayı Çalıştır:**
+   ```console
+   python kappi.py
+   ```
+   veya
+   ```console
+   python3 kappi.py
+   ```
+
+***
+
+## Çalıştırma
+
+Uygulamayı başlatmak için aşağıdaki komutu kullanın:
+
 ```console
-pkg install git
-
-apt update && apt upgrade
-
-pkg install python git
-
-git clone https://github.com/Kappi7581/Kappi-Nuker-Beta
-
-cd Kappi-Nuker-Beta
-
-python -m pip install -r requirements.txt
-
 python kappi.py
 ```
-**## Kurulumdan Sonra Çalıştırmak İçin**
+veya
 ```console
-cd Kappi-Nuker-Beta
-
-python kappi.py
-```
-## Linux / Windows
-```console
-git clone https://github.com/Kappi7581/Kappi-Nuker-Beta
-
-cd Kappi-Nuker-Beta
-
-python -m pip install -r requirements.txt
-
 python3 kappi.py
 ```
 
-***
-# Running
-Bu kadar basit! `python nuke-bot.py` veya `python3 nuke-bot.py` komutunu girin, nuke bot arayüzü başlayacaktır.
+Bot arayüzü otomatik olarak başlayacaktır.
+
+---
